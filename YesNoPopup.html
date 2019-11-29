@@ -74,6 +74,7 @@
 <span class="cmt"># -*- coding: UTF-8 -*- </span>
 <span class="kw">from</span> javax.swing <span class="kw">import</span> JOptionPane;
 
+<span class="cmt">## Función que crea un formulario SI/No para solicitar el dato al usuario.</span>
 <span class="kw">def</span> YesNoPopup(msg=<span class="str">""</span>,title=<span class="str">""</span>):
     result = JOptionPane.showConfirmDialog(None,msg,title,JOptionPane.YES_NO_OPTION);
     <span class="kw">if</span> result == JOptionPane.YES_OPTION :
